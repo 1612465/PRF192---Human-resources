@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tin Tức</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container p-5">
+        <h2 style="font-size:50px;color:red"><center> Tin Tức</center></h2>
+        <div class="row">
+                <div class="col -10">
+                    <form>
+                        <div class="mb-3">
+                          <input type="email" class="form-control" id="sNew">
+                        </div>
+                        <center><button type="submit" class="btn btn-primary" id="search">Search</button></center>
+                        <div id="loader" style="display: none">
+                            <img src="ajax-loader.gif">
+                        </div>
+                      </form>
+                </div>
+        </div>
+        
+        <div class="col my-3 p-3">
+                <div class="row" id="New">                     
+                </div>
+        </div>
+        
+    </div>
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
